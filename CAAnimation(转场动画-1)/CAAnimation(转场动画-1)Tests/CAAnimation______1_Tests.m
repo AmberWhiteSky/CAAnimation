@@ -1,6 +1,6 @@
 //
-//  CAAnimation______Tests.m
-//  CAAnimation(转场动画)Tests
+//  CAAnimation______1_Tests.m
+//  CAAnimation(转场动画-1)Tests
 //
 //  Created by AmberWhiteSky on 15/10/9.
 //  Copyright © 2015年 AmberWhiteSky. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface CAAnimation______Tests : XCTestCase
+@interface CAAnimation______1_Tests : XCTestCase
 
 @end
 
-@implementation CAAnimation______Tests
+@implementation CAAnimation______1_Tests
 
 - (void)setUp {
     [super setUp];

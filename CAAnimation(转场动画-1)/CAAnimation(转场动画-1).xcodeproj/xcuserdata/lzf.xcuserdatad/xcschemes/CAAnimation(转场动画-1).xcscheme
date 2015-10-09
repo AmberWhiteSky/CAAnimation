@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3C2593491BC80CE900C4C26B"
-               BuildableName = "CAAnimation(&#x8f6c;&#x573a;&#x52a8;&#x753b;).app"
-               BlueprintName = "CAAnimation(&#x8f6c;&#x573a;&#x52a8;&#x753b;)"
-               ReferencedContainer = "container:CAAnimation(&#x8f6c;&#x573a;&#x52a8;&#x753b;).xcodeproj">
+               BlueprintIdentifier = "3C9CB98E1BC8178D00977CF6"
+               BuildableName = "CAAnimation(&#x8f6c;&#x573a;&#x52a8;&#x753b;-1).app"
+               BlueprintName = "CAAnimation(&#x8f6c;&#x573a;&#x52a8;&#x753b;-1)"
+               ReferencedContainer = "container:CAAnimation(&#x8f6c;&#x573a;&#x52a8;&#x753b;-1).xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3C2593621BC80CE900C4C26B"
-               BuildableName = "CAAnimation(&#x8f6c;&#x573a;&#x52a8;&#x753b;)Tests.xctest"
-               BlueprintName = "CAAnimation(&#x8f6c;&#x573a;&#x52a8;&#x753b;)Tests"
-               ReferencedContainer = "container:CAAnimation(&#x8f6c;&#x573a;&#x52a8;&#x753b;).xcodeproj">
+               BlueprintIdentifier = "3C9CB9A71BC8178D00977CF6"
+               BuildableName = "CAAnimation(&#x8f6c;&#x573a;&#x52a8;&#x753b;-1)Tests.xctest"
+               BlueprintName = "CAAnimation(&#x8f6c;&#x573a;&#x52a8;&#x753b;-1)Tests"
+               ReferencedContainer = "container:CAAnimation(&#x8f6c;&#x573a;&#x52a8;&#x753b;-1).xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3C25936D1BC80CE900C4C26B"
-               BuildableName = "CAAnimation(&#x8f6c;&#x573a;&#x52a8;&#x753b;)UITests.xctest"
-               BlueprintName = "CAAnimation(&#x8f6c;&#x573a;&#x52a8;&#x753b;)UITests"
-               ReferencedContainer = "container:CAAnimation(&#x8f6c;&#x573a;&#x52a8;&#x753b;).xcodeproj">
+               BlueprintIdentifier = "3C9CB9B21BC8178D00977CF6"
+               BuildableName = "CAAnimation(&#x8f6c;&#x573a;&#x52a8;&#x753b;-1)UITests.xctest"
+               BlueprintName = "CAAnimation(&#x8f6c;&#x573a;&#x52a8;&#x753b;-1)UITests"
+               ReferencedContainer = "container:CAAnimation(&#x8f6c;&#x573a;&#x52a8;&#x753b;-1).xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3C2593491BC80CE900C4C26B"
-            BuildableName = "CAAnimation(&#x8f6c;&#x573a;&#x52a8;&#x753b;).app"
-            BlueprintName = "CAAnimation(&#x8f6c;&#x573a;&#x52a8;&#x753b;)"
-            ReferencedContainer = "container:CAAnimation(&#x8f6c;&#x573a;&#x52a8;&#x753b;).xcodeproj">
+            BlueprintIdentifier = "3C9CB98E1BC8178D00977CF6"
+            BuildableName = "CAAnimation(&#x8f6c;&#x573a;&#x52a8;&#x753b;-1).app"
+            BlueprintName = "CAAnimation(&#x8f6c;&#x573a;&#x52a8;&#x753b;-1)"
+            ReferencedContainer = "container:CAAnimation(&#x8f6c;&#x573a;&#x52a8;&#x753b;-1).xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3C2593491BC80CE900C4C26B"
-            BuildableName = "CAAnimation(&#x8f6c;&#x573a;&#x52a8;&#x753b;).app"
-            BlueprintName = "CAAnimation(&#x8f6c;&#x573a;&#x52a8;&#x753b;)"
-            ReferencedContainer = "container:CAAnimation(&#x8f6c;&#x573a;&#x52a8;&#x753b;).xcodeproj">
+            BlueprintIdentifier = "3C9CB98E1BC8178D00977CF6"
+            BuildableName = "CAAnimation(&#x8f6c;&#x573a;&#x52a8;&#x753b;-1).app"
+            BlueprintName = "CAAnimation(&#x8f6c;&#x573a;&#x52a8;&#x753b;-1)"
+            ReferencedContainer = "container:CAAnimation(&#x8f6c;&#x573a;&#x52a8;&#x753b;-1).xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3C2593491BC80CE900C4C26B"
-            BuildableName = "CAAnimation(&#x8f6c;&#x573a;&#x52a8;&#x753b;).app"
-            BlueprintName = "CAAnimation(&#x8f6c;&#x573a;&#x52a8;&#x753b;)"
-            ReferencedContainer = "container:CAAnimation(&#x8f6c;&#x573a;&#x52a8;&#x753b;).xcodeproj">
+            BlueprintIdentifier = "3C9CB98E1BC8178D00977CF6"
+            BuildableName = "CAAnimation(&#x8f6c;&#x573a;&#x52a8;&#x753b;-1).app"
+            BlueprintName = "CAAnimation(&#x8f6c;&#x573a;&#x52a8;&#x753b;-1)"
+            ReferencedContainer = "container:CAAnimation(&#x8f6c;&#x573a;&#x52a8;&#x753b;-1).xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

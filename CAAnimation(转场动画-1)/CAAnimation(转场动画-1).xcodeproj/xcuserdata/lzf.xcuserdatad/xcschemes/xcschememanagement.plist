@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>CAAnimation(转场动画).xcscheme</key>
+		<key>CAAnimation(转场动画-1).xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3C2593491BC80CE900C4C26B</key>
+		<key>3C9CB98E1BC8178D00977CF6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3C2593621BC80CE900C4C26B</key>
+		<key>3C9CB9A71BC8178D00977CF6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3C25936D1BC80CE900C4C26B</key>
+		<key>3C9CB9B21BC8178D00977CF6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
