@@ -30,11 +30,36 @@
 }
 
 - (IBAction)up {
+    self.index--;
+    if (self.index==-1) {
+        self.index=6;
+    }
+    NSString * filename =[NSString  stringWithFormat:@"%d.jpg",self.index+1];
+    self.iconview.image =[UIImage  imageNamed: filename];
+
+    //转场动画
+    CATransition  *anim =[CATransition  animation];
+    anim.type =@"cube";
+    [self.iconview.layer  addAnimation:anim forKey:nil];
+    
 }
 
 - (IBAction)next {
     self.index++;
+    if (self.index==7) {
+        self.index=0;
+    }
+    
+    
     NSString * filename =[NSString  stringWithFormat:@"%d.jpg",self.index+1];
     self.iconview.image =[UIImage  imageNamed: filename];
+    
+    
+    //转场动画
+    CATransition  *anim =[CATransition  animation];
+    anim.type =@"cube";
+    [self.iconview.layer  addAnimation:anim forKey:nil];
+    
+    
 }
 @end
