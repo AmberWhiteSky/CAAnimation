@@ -40,6 +40,9 @@
     //转场动画
     CATransition  *anim =[CATransition  animation];
     anim.type =@"cube";
+    anim.duration=0.5;
+    anim.subtype=kCATransitionFromTop;
+
     [self.iconview.layer  addAnimation:anim forKey:nil];
     
 }
@@ -57,7 +60,12 @@
     
     //转场动画
     CATransition  *anim =[CATransition  animation];
-    anim.type =@"cube";
+    anim.type =@"push";
+    anim.duration=0.5;
+    
+//    anim.startProgress=0.0;
+//    anim.endProgress=0.9;
+    anim.subtype=kCATransitionFromLeft;
     [self.iconview.layer  addAnimation:anim forKey:nil];
     
     
