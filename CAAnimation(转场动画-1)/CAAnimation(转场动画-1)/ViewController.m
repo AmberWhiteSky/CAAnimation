@@ -24,6 +24,38 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+
+-(void)  animGroup{
+    
+    
+
+}
+
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    //1.创建旋转动画对象
+    CABasicAnimation * animation =[CABasicAnimation  animation];
+    animation.keyPath =@"transform.roation";
+    animation.toValue=@(M_PI);
+    //2.创建缩放动画对象
+    CABasicAnimation *scale =[CABasicAnimation  animation];
+    scale.keyPath =@"transform.scale";
+    scale.toValue =@(0.0);
+    //3.平移动画
+    CABasicAnimation *move =[CABasicAnimation  animation];
+    move.keyPath=@"transform.translation";
+    move.toValue =[NSValue  valueWithCGPoint:CGPointMake(100, 100)];
+    
+    
+    CAAnimationGroup  *group =[CAAnimationGroup animation];
+    group.animations =@[animation,scale,move];
+    group.duration =2.0;
+    group.removedOnCompletion=NO;
+    group.fillMode=kCAFillModeForwards;
+    [self.iconview.layer  addAnimation:group forKey:nil];
+
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
