@@ -17,16 +17,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VwX-za-8sx">
-                                <rect key="frame" x="113" y="59" width="94" height="100"/>
+                                <rect key="frame" x="113" y="281" width="94" height="100"/>
                                 <animations/>
                                 <color key="backgroundColor" red="1" green="0.43855794749999999" blue="0.29870182760000002" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="nxS-dZ-dTv">
+                                <rect key="frame" x="77" y="46" width="167" height="198"/>
+                                <animations/>
+                            </imageView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
+                        <outlet property="iconview" destination="nxS-dZ-dTv" id="FLf-I6-dga"/>
                         <outlet property="myview" destination="VwX-za-8sx" id="nTK-6d-7h1"/>
                     </connections>
                 </viewController>
@@ -35,4 +40,7 @@
             <point key="canvasLocation" x="280" y="337"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="1" width="320" height="480"/>
+    </resources>
 </document>
